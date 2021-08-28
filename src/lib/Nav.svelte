@@ -8,10 +8,10 @@
         </div>
     </div>
     <div class="hidden md:block flex items-center space-x-8 text-lg font-bold">
-        <a class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">Tutorial</a>
-        <a class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">Documentation</a>
-        <a class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">Blog</a>
-        <a class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">GitHub</a>
+        <a href="" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">Tutorial</a>
+        <a href="" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">Documentation</a>
+        <a href="" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">Blog</a>
+        <a href="https://github.com/lnx-search/lnx" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">GitHub</a>
     </div>
     <div class="block md:hidden">
 
