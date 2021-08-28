@@ -17,7 +17,7 @@ module.exports = {
 		target: '#svelte',
 		// hydrate: false,
 		// router: false,
-		adapter: require("@sveltejs/adapter-static")(),
+		adapter: adapter(),
 		files: {
 			assets: 'static',
 			lib: 'src/lib',

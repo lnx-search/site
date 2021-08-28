@@ -23,6 +23,7 @@
 		"node": ">= 12.17.0"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-node": "next",
 		"svelte-hamburgers": "^2.0.6",
 		"svelte-routing": "^1.6.0",
 		"svelte-typewriter": "^2.4.5"
