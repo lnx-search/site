@@ -9,8 +9,8 @@
         </h1>
         <h3 class="text-2xl font-bold">An adaptable search engine API.</h3>
     </div>
-    <div class="flex items-center justify-around xl:justify-center flex-wrap px-16 mt-24">
-        <div class="h-64 w-1/2">
+    <div class="flex justify-around xl:justify-center flex-wrap px-16 mt-24">
+        <div class="h-64 w-1/2 mt-24">
             <div class="text-4xl lg:text-6xl font-bold border-l-4 border-indigo-600 pt-1 pb-3 pl-4">
                 Make it
                 <div class="flex text-7xl ml-8">
