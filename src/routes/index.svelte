@@ -103,7 +103,7 @@
                 </svg>
                 <div class="flex flex-col w-3/4">
                     <p class="text-base lg:text-xl font-bold italic">Sorting By Field</p>
-                    <p class="text-sm lg:text-base">100% open-source, built for the community.</p>
+                    <p class="text-sm lg:text-base">Results can be sorted by any fast-field quickly and easily.</p>
                 </div>
             </div>
             <div class="transform rotate-3 flex justify-center items-center h-24 bg-white rounded-lg shadow-md my-4 p-4 w-80 lg:w-28">
@@ -112,8 +112,10 @@
                 </svg>
                 <div class="flex flex-col w-3/4">
                     <p class="text-base lg:text-xl font-bold italic">Stop Words</p>
-                    <p class="text-sm lg:text-base">Query millions of documents in milliseconds with
-                        our fast-fuzzy system.</p>
+                    <p class="text-sm lg:text-base">
+                        With a pre-made set, stop words can be removed to boost
+                        relevancy in queries.
+                    </p>
                 </div>
             </div>
             <div class="transform -rotate-3 flex justify-center items-center h-24 bg-white rounded-lg shadow-md my-4 p-4 w-80 lg:w-28">
@@ -122,7 +124,9 @@
                 </svg>
                 <div class="flex flex-col w-3/4">
                     <p class="text-base lg:text-xl font-bold italic">Token Bearer Authorization</p>
-                    <p class="text-sm lg:text-base">100% open-source, built for the community.</p>
+                    <p class="text-sm lg:text-base">
+                        Secure your system giving permissions based access to specific users.
+                    </p>
                 </div>
             </div>
             <div class="transform rotate-3 flex justify-center items-center h-24 bg-white rounded-lg shadow-md my-4 p-4 w-80 lg:w-28">
@@ -131,8 +135,10 @@
                 </svg>
                 <div class="flex flex-col w-3/4">
                     <p class="text-base lg:text-xl font-bold italic">Boost Fields</p>
-                    <p class="text-sm lg:text-base">Currently lnx supports 17 latin languages.
-                        Chinese, Japanese and Korean are planned.</p>
+                    <p class="text-sm lg:text-base">
+                        Each fields can be individually adjusted to give the best
+                        searching experience.
+                    </p>
                 </div>
             </div>
             <div class="transform -rotate-3 flex justify-center items-center h-24 bg-white rounded-lg shadow-md my-4 p-4 w-80 lg:w-28">
@@ -141,7 +147,10 @@
                 </svg>
                 <div class="flex flex-col w-3/4">
                     <p class="text-base lg:text-xl font-bold italic">Fast-Fuzzy Pre-Computation</p>
-                    <p class="text-sm lg:text-base">100% open-source, built for the community.</p>
+                    <p class="text-sm lg:text-base">
+                        This feature uses pre-computation to boost fuzzy query performance by over
+                        <span class="font-bold italic">10x</span>.
+                    </p>
                 </div>
             </div>
         </div>
