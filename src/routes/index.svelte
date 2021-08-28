@@ -7,7 +7,7 @@
         <h1 class="text-8xl font-bold italic text-indigo-600">
             lnx
         </h1>
-        <h3 class="text-2xl font-bold italic">An adaptable search engine API.</h3>
+        <h3 class="text-2xl font-bold">An adaptable search engine API.</h3>
     </div>
     <div class="flex items-center justify-around xl:justify-center flex-wrap px-16 mt-24">
         <div class="h-64 w-1/2">

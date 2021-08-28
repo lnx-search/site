@@ -17,12 +17,7 @@ const config = {
 		target: '#svelte',
 		// hydrate: false,
 		// router: false,
-		adapter: adapter({
-			// default options are shown
-			pages: 'build',
-			assets: 'build',
-			fallback: null,
-		}),
+		adapter: require("@sveltejs/adapter-static")(),
 		files: {
 			assets: 'static',
 			lib: 'src/lib',
