@@ -9,7 +9,7 @@
         </h1>
         <h3 class="text-2xl text-center font-bold">An adaptable search engine API.</h3>
     </div>
-    <div class="flex flex-col items-center lg:items-start lg:flex-row md:justify-between xl:justify-center flex-wrap px-16 my-4 lg:my-24">
+    <div class="flex flex-col items-center lg:items-start lg:flex-row md:justify-between xl:justify-center flex-wrap 2xl:px-16 my-4 lg:my-24">
         <div class="flex flex-col items-center lg:items-start w-full lg:w-1/2 mt-12 lg:mt-24">
             <div class="text-2xl lg:text-6xl font-bold border-l-4 border-indigo-600 pt-1 pb-3 pl-4 w-4/5 lg:w-auto">
                 Make it
@@ -65,11 +65,11 @@
                 </svg>
                 <div class="flex flex-col w-3/4">
                     <p class="text-base lg:text-xl font-bold italic">Multi-Language</p>
-                    <p class="text-sm lg:text-base">Currently lnx supports 17 latin languages. Chinese, japanese and korean are planned.</p>
+                    <p class="text-sm lg:text-base">Currently lnx supports 17 latin languages. Chinese, Japanese and Korean are planned.</p>
                 </div>
             </div>
             <div class="flex justify-around items-center h-24 bg-gray-900 rounded-lg shadow-md my-4 p-4 w-80 lg:w-28">
-                <a href="https://book.lnx.rs" class="cursor-pointer flex items-center justify-center hover:shadow-inner transform duration-200 text-center text-white text-base lg:text-2xl font-bold border-2 border-black bg-indigo-400 hover:bg-indigo-500 rounded-lg h-12 pb-1 px-4">
+                <a href="https://github.com/lnx-search/lnx" class="cursor-pointer flex items-center justify-center hover:shadow-inner transform duration-200 text-center text-white text-base lg:text-2xl font-bold border-2 border-black bg-indigo-400 hover:bg-indigo-500 rounded-lg h-12 pb-1 px-4">
                     🕹️ Source
                 </a>
                 <a href="https://book.lnx.rs" class="cursor-pointer flex items-center justify-center hover:shadow-inner transform duration-200 text-center text-white text-base lg:text-2xl font-bold border-2 border-black bg-indigo-400 hover:bg-indigo-500 rounded-lg h-12 pb-1 px-4">
