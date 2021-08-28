@@ -7,11 +7,11 @@
             <p class="pl-1 transform -translate-y-1">Feature-rich search.</p>
         </div>
     </div>
-    <div class="hidden md:block flex items-center space-x-8 text-lg font-bold">
-        <a href="" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">Tutorial</a>
-        <a href="" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">Documentation</a>
-        <a href="" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">Blog</a>
-        <a href="https://github.com/lnx-search/lnx" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2">GitHub</a>
+    <div class="hidden md:block flex items-center text-lg font-bold">
+        <a href="" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2 mx-4">Tutorial</a>
+        <a href="" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2 mx-4">Documentation</a>
+        <a href="" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2 mx-4">Blog</a>
+        <a href="https://github.com/lnx-search/lnx" class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2 mx-4">GitHub</a>
     </div>
     <div class="block md:hidden">
 
