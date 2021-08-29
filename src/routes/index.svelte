@@ -91,10 +91,63 @@
 
     <div class="flex flex-col items-center lg:items-start lg:flex-row-reverse md:justify-between xl:justify-around flex-wrap text-white bg-gray-900 2xl:px-16 my-4 lg:py-24 w-full">
         <div class="flex flex-col w-full lg:w-1/2 mt-12 lg:mt-24">
-            <h3 class="text-2xl lg:text-6xl font-bold mb-6">Built for anything</h3>
-            <p class="text-gray-500 text-3xl font-semibold text-center lg:text-left lg:px-0">
-                todo
-            </p>
+            <div class="flex">
+                <h3 class="text-2xl lg:text-6xl font-bold mb-6 border-b-4 border-indigo-600">The query kinds</h3>
+            </div>
+            <div class="flex flex-col mt-4 border-l-2 border-indigo-600">
+                <h3 class="text-white font-bold text-2xl pl-2">
+                    The <span class="italic text-red-400">"normal"</span> query
+                </h3>
+                <p class="text-gray-500 text-lg lg:text-xl font-semibold pl-2 pb-2">
+                    This mode exposes the
+                    <a
+                            href="https://docs.rs/tantivy/0.16.0/tantivy/query/struct.QueryParser.html"
+                            class="text-blue-400 border-b-2 border-transparent hover:border-blue-400 transition duration-200">
+                        Tantivy query parser
+                    </a>
+                    which gives you a powerful query language for searching things like logs.
+                </p>
+            </div>
+            <div class="flex flex-col mt-4 border-l-2 border-indigo-600">
+                <h3 class="text-white font-bold text-2xl pl-2">
+                    The <span class="italic text-red-400">"fuzzy"</span> query
+                </h3>
+                <p class="text-gray-500 text-lg lg:text-xl font-semibold pl-2 pb-2">
+                    This mode uses the traditional
+                    <a
+                            href="https://en.wikipedia.org/wiki/Levenshtein_distance"
+                            class="text-blue-400 border-b-2 border-transparent hover:border-blue-400 transition duration-200">
+                         Levenshtein distance
+                    </a>
+                      to find close
+                    matches giving you typo-tolerance with your queries.
+                </p>
+            </div>
+            <div class="flex flex-col mt-4 border-l-2 border-indigo-600">
+                <h3 class="text-white font-bold text-2xl pl-2">
+                    The <span class="italic text-red-400">"more-like-this"</span> query
+                </h3>
+                <p class="text-gray-500 text-lg lg:text-xl font-semibold pl-2 pb-2">
+                    Get similar documents to a reference document, great for e-commerce
+                    or e-readers.
+                </p>
+            </div>
+            <div class="flex flex-col mt-4 border-l-2 border-indigo-600">
+                <h3 class="text-white font-bold text-2xl pl-2">
+                    The <span class="italic text-red-400">"fast-fuzzy"</span> query
+                </h3>
+                <p class="text-gray-500 text-lg lg:text-xl font-semibold pl-2 pb-2">
+                    The fast-fuzzy mode is a implementation of the
+                    <a
+                            href="https://towardsdatascience.com/symspellcompound-10ec8f467c9b"
+                            class="text-blue-400 border-b-2 border-transparent hover:border-blue-400 transition duration-200">
+                        symspell algorithm
+                    </a>
+                    which provides spell corrections via pre-computation.
+                    This is the secret sauce behind being able to blow other engines
+                    out of the water when it comes to fuzzy searching.
+                </p>
+            </div>
         </div>
         <div class="flex flex-col items-center bg-indigo-600 rounded-lg shadow-inner py-4 mx-4 text-gray-900 mt-8 lg:mt-0 w-9/12 lg:w-426">
             <div class="transform -rotate-3 flex justify-center items-center h-24 bg-white rounded-lg shadow-md my-4 p-4 w-80 lg:w-28">
