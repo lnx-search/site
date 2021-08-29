@@ -174,6 +174,11 @@
                     out of the water when it comes to fuzzy searching.
                 </p>
             </div>
+            <div class="flex mt-32">
+                <h3 class="text-2xl lg:text-6xl font-bold mb-6 border-b-4 border-indigo-600">
+                    Try it out for yourself
+                </h3>
+            </div>
         </div>
         <div class="flex flex-col items-center bg-indigo-600 rounded-lg shadow-inner py-4 mx-4 text-gray-900 mt-8 lg:mt-0 w-9/12 lg:w-426">
             <div class="transform -rotate-3 flex justify-center items-center h-24 bg-white rounded-lg shadow-md my-4 p-4 w-80 lg:w-28">
@@ -233,5 +238,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="w-full h-64 bg-gray-900">
+
     </div>
 </div>
