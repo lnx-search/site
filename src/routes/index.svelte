@@ -9,7 +9,7 @@
         </h1>
         <h3 class="text-2xl text-center font-bold">An adaptable search engine API.</h3>
     </div>
-    <div class="flex flex-col items-center lg:items-start lg:flex-row md:justify-between xl:justify-center flex-wrap 2xl:px-16 my-4 lg:my-24">
+    <div class="flex flex-col items-center lg:items-start lg:flex-row md:justify-between xl:justify-center flex-wrap 2xl:px-16 my-4 lg:mt-24">
         <div class="flex flex-col items-center lg:items-start w-full lg:w-1/2 mt-12 lg:mt-24">
             <div class="text-2xl lg:text-6xl font-bold border-l-4 border-indigo-600 pt-1 pb-3 pl-4 w-4/5 lg:w-auto">
                 Make it
@@ -88,9 +88,35 @@
             </div>
         </div>
     </div>
-
-    <div class="flex flex-col items-center lg:items-start lg:flex-row-reverse md:justify-between xl:justify-around flex-wrap text-white bg-gray-900 2xl:px-16 my-4 lg:py-24 w-full">
-        <div class="flex flex-col w-full lg:w-1/2 mt-12 lg:mt-24">
+    <div class="flex flex-col text-white bg-gray-900 2xl:px-16 mt-8 w-full">
+        <div class="flex justify-around">
+            <div class="transform lg:-translate-y-32 bg-indigo-600 rounded-lg p-4 mx-4 mt-8 lg:mt-0">
+                <div class="flex flex-col">
+                    <h3 class="text-white font-bold text-2xl">Quick start with docker</h3>
+                    <p class="text-gray-100 text-lg mt-2">
+                        Get started in seconds with our
+                         <a
+                            href="https://hub.docker.com/r/chillfish8/lnx"
+                            class="italic font-semibold text-blue-300 border-b-2 border-transparent hover:border-blue-400 transition duration-200">
+                            docker images
+                        </a>, just run:
+                    </p>
+                    <p class="text-lg text-gray-200 bg-gray-800 rounded-lg px-4 py-1 mt-2">docker run -p "8000:8000" chillfish8/lnx:latest --host "0.0.0.0"</p>
+                    <p class="text-gray-100 text-lg mt-2">
+                        Once setup you can create indexes and start exploring everything<br/>
+                        lnx has to offer with <a
+                            href="https://book.lnx.rs"
+                            class="italic font-semibold text-blue-300 border-b-2 border-transparent hover:border-blue-400 transition duration-200">
+                            the book.
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="hidden lg:block w-1/3"></div>
+        </div>
+    </div>
+    <div class="flex flex-col items-center lg:items-start lg:flex-row-reverse md:justify-between xl:justify-center flex-wrap text-white bg-gray-900 2xl:px-16 w-full">
+        <div class="transform lg:-translate-y-48 flex flex-col w-5/6 lg:w-2/5 mt-12 lg:ml-48">
             <div class="flex">
                 <h3 class="text-2xl lg:text-6xl font-bold mb-6 border-b-4 border-indigo-600">The query kinds</h3>
             </div>
