@@ -238,7 +238,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex items-center justify-evenly border-t-2 border-gray-600 text-gray-400 mt-32 py-8 w-full">
+        <div class="flex flex-wrap items-center justify-evenly border-t-2 border-gray-600 text-gray-400 mt-32 py-8 w-full">
             <p>© 2021 lnx search.</p>
             <a href="https://docs.lnx.rs">Docs</a>
             <a href="https://github.com/lnx-search/lnx/discussions">FAQ</a>
