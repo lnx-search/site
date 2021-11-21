@@ -81,7 +81,7 @@
                    class="cursor-pointer flex items-center justify-center hover:shadow-inner transform duration-200 text-center text-white text-base lg:text-2xl font-bold border-2 border-black bg-indigo-400 hover:bg-indigo-500 rounded-lg h-12 pb-1 px-4">
                     🕹️ Source
                 </a>
-                <a href="https://book.lnx.rs"
+                <a href="https://docs.lnx.rs"
                    class="cursor-pointer flex items-center justify-center hover:shadow-inner transform duration-200 text-center text-white text-base lg:text-2xl font-bold border-2 border-black bg-indigo-400 hover:bg-indigo-500 rounded-lg h-12 pb-1 px-4">
                     🚀 Get Started
                 </a>
@@ -105,9 +105,9 @@
                     <p class="text-gray-100 text-lg mt-2">
                         Once setup you can create indexes and start exploring everything<br/>
                         lnx has to offer with <a
-                            href="https://book.lnx.rs"
+                            href="https://docs.lnx.rs"
                             class="italic font-semibold text-blue-300 border-b-2 border-transparent hover:border-blue-400 transition duration-200">
-                            the book.
+                            the docs.
                         </a>
                     </p>
                 </div>
@@ -118,7 +118,7 @@
     <div class="flex flex-col items-center lg:items-start lg:flex-row-reverse md:justify-between xl:justify-center flex-wrap text-white bg-gray-900 2xl:px-16 w-full">
         <div class="transform lg:-translate-y-48 flex flex-col w-5/6 lg:w-2/5 mt-12 lg:ml-48">
             <div class="flex">
-                <h3 class="text-2xl lg:text-6xl font-bold mb-6 border-b-4 border-indigo-600">The query kinds</h3>
+                <h3 class="text-2xl lg:text-5xl 2xl:text-6xl font-bold mb-6 border-b-4 border-indigo-600">The query kinds</h3>
             </div>
             <div class="flex flex-col mt-4 border-l-2 border-indigo-600">
                 <h3 class="text-white font-bold text-2xl pl-2">
@@ -174,11 +174,11 @@
                     out of the water when it comes to fuzzy searching.
                 </p>
             </div>
-            <div class="flex mt-32">
-                <h3 class="text-2xl lg:text-6xl font-bold mb-6 border-b-4 border-indigo-600">
+            <!-- <div class="flex mt-32">
+                <h3 class="text-2xl lg:text-5xl 2xl:text-6xl font-bold mb-6 border-b-4 border-indigo-600">
                     Try it out for yourself
                 </h3>
-            </div>
+            </div>  -->
         </div>
         <div class="flex flex-col items-center bg-indigo-600 rounded-lg shadow-inner py-4 mx-4 text-gray-900 mt-8 lg:mt-0 w-9/12 lg:w-426">
             <div class="transform -rotate-3 flex justify-center items-center h-24 bg-white rounded-lg shadow-md my-4 p-4 w-80 lg:w-28">
@@ -238,8 +238,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="w-full h-64 bg-gray-900">
+        <div class="h-64 w-full">
 
+        </div>
     </div>
 </div>
