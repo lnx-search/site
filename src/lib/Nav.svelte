@@ -45,9 +45,8 @@
 
     {#if open}
         <div transition:fade class="sticky flex flex-col items-center block md:hidden text-gray-900 text-2xl font-semibold bg-white border-b-2 border-black h-screen w-full py-8">
-            <button in:fly="{{ y: -200, duration: 1000 }}" out:fly="{{ y: -200, duration: 1000 }}" on:click={() => redirectTo("")} class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2 mx-4 my-4">Tutorial</button>
-            <button in:fly="{{ y: -250, duration: 1000 }}" out:fly="{{ y: -250, duration: 1000 }}" on:click={() => redirectTo("")} class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2 mx-4 my-4">Documentation</button>
-            <button in:fly="{{ y: -300, duration: 1000 }}" out:fly="{{ y: -300, duration: 1000 }}" on:click={() => redirectTo("")} class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2 mx-4 my-4">Blog</button>
+            <button in:fly="{{ y: -200, duration: 1000 }}" out:fly="{{ y: -200, duration: 1000 }}" on:click={() => redirectTo("https://github.com/lnx-search/lnx/discussions")} class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2 mx-4 my-4">FAQ</button>
+            <button in:fly="{{ y: -250, duration: 1000 }}" out:fly="{{ y: -250, duration: 1000 }}" on:click={() => redirectTo("https://docs.lnx.rs")} class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2 mx-4 my-4">Documentation</button>
             <button in:fly="{{ y: -350, duration: 1000 }}" out:fly="{{ y: -350, duration: 1000 }}" on:click={() => redirectTo("https://github.com/lnx-search/lnx")} class="cursor-pointer border-b-2 border-indigo-600 hover:border-black transition duration-200 px-2 mx-4 my-4">GitHub</button>
         </div>
     {/if}
