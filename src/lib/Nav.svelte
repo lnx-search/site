@@ -9,6 +9,7 @@
 
     function redirectTo(url) {
         open = false;
+        window.location.href = url;
     }
 </script>
 
